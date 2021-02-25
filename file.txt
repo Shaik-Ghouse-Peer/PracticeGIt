@@ -1,3 +1,0 @@
-I am First File
-
-Added new line in remote master
