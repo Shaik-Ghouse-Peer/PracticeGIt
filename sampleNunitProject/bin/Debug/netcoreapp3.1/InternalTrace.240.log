@@ -1,0 +1,73 @@
+InternalTrace: Initializing at level Debug
+14:33:02.365 Debug [ 1] ServiceManager: Added SettingsService
+14:33:02.365 Debug [ 1] ServiceManager: Added DriverService
+14:33:02.365 Debug [ 1] ServiceManager: Added RecentFilesService
+14:33:02.365 Debug [ 1] ServiceManager: Added TestFilterService
+14:33:02.366 Debug [ 1] ServiceManager: Added ExtensionService
+14:33:02.366 Debug [ 1] ServiceManager: Added ProjectService
+14:33:02.366 Debug [ 1] ServiceManager: Added DomainManager
+14:33:02.366 Debug [ 1] ServiceManager: Added RuntimeFrameworkService
+14:33:02.366 Debug [ 1] ServiceManager: Added TestAgency
+14:33:02.415 Debug [ 1] ServiceManager: Added ResultService
+14:33:02.415 Debug [ 1] ServiceManager: Added DefaultTestRunnerFactory
+14:33:02.416 Info  [ 1] ServiceManager: Initializing SettingsService
+14:33:02.428 Info  [ 1] ServiceManager: Initializing DriverService
+14:33:02.439 Debug [ 1] ServiceManager: Request for service ExtensionService satisfied by ExtensionService
+14:33:02.451 Info  [ 1] ServiceManager: Initializing RecentFilesService
+14:33:02.453 Debug [ 1] ServiceManager: Request for service ISettings satisfied by SettingsService
+14:33:02.456 Info  [ 1] ServiceManager: Initializing TestFilterService
+14:33:02.456 Info  [ 1] ServiceManager: Initializing ExtensionService
+14:33:02.467 Info  [ 1] ExtensionService: Scanning nunit.engine assembly for extension points
+14:33:02.469 Info  [ 1] ExtensionService:   Found Path=/NUnit/Engine/NUnitV2Driver, Type=NUnit.Engine.Extensibility.IFrameworkDriver
+14:33:02.496 Info  [ 1] ExtensionService: Scanning nunit.engine.api assembly for extension points
+14:33:02.498 Info  [ 1] ExtensionService:   Found Path=/NUnit/Engine/TypeExtensions/IService, Type=NUnit.Engine.IService
+14:33:02.498 Info  [ 1] ExtensionService:   Found Path=/NUnit/Engine/TypeExtensions/ITestEventListener, Type=NUnit.Engine.ITestEventListener
+14:33:02.499 Info  [ 1] ExtensionService:   Found Path=/NUnit/Engine/TypeExtensions/IDriverFactory, Type=NUnit.Engine.Extensibility.IDriverFactory
+14:33:02.499 Info  [ 1] ExtensionService:   Found Path=/NUnit/Engine/TypeExtensions/IProjectLoader, Type=NUnit.Engine.Extensibility.IProjectLoader
+14:33:02.499 Info  [ 1] ExtensionService:   Found Path=/NUnit/Engine/TypeExtensions/IResultWriter, Type=NUnit.Engine.Extensibility.IResultWriter
+14:33:02.507 Info  [ 1] ExtensionService: Processing file C:\Users\shaik.g.peer\.nuget\packages\nunit.consolerunner\3.10.0\tools\nunit.nuget.addins
+14:33:02.517 Info  [ 1] ServiceManager: Initializing ProjectService
+14:33:02.522 Debug [ 1] ServiceManager: Request for service ExtensionService satisfied by ExtensionService
+14:33:02.522 Info  [ 1] ServiceManager: Initializing DomainManager
+14:33:02.523 Info  [ 1] ServiceManager: Initializing RuntimeFrameworkService
+14:33:02.523 Info  [ 1] ServiceManager: Initializing TestAgency
+14:33:02.578 Info  [ 1] ServiceManager: Initializing ResultService
+14:33:02.580 Debug [ 1] ServiceManager: Request for service ExtensionService satisfied by ExtensionService
+14:33:02.580 Info  [ 1] ServiceManager: Initializing DefaultTestRunnerFactory
+14:33:02.581 Debug [ 1] ServiceManager: Request for service IProjectService satisfied by ProjectService
+14:33:02.581 Debug [ 1] ServiceManager: Request for service IResultService satisfied by ResultService
+14:33:02.581 Debug [ 1] ServiceManager: Request for service ITestFilterService satisfied by TestFilterService
+14:33:02.581 Debug [ 1] ServiceManager: Request for service IExtensionService satisfied by ExtensionService
+14:33:02.676 Debug [ 1] ServiceManager: Request for service IProjectService satisfied by ProjectService
+14:33:02.677 Debug [ 1] ServiceManager: Request for service IRuntimeFrameworkService satisfied by RuntimeFrameworkService
+14:33:02.677 Debug [ 1] ServiceManager: Request for service ExtensionService satisfied by ExtensionService
+14:33:02.677 Debug [ 1] ServiceManager: Request for service ITestRunnerFactory satisfied by DefaultTestRunnerFactory
+14:33:02.683 Debug [ 1] ServiceManager: Request for service ITestRunnerFactory satisfied by DefaultTestRunnerFactory
+14:33:02.683 Debug [ 1] ServiceManager: Request for service TestAgency satisfied by TestAgency
+14:33:02.756 Debug [ 1] RuntimeFrameworkService: Assembly C:\Users\shaik.g.peer\source\repos\sampleNunitProject\bin\Debug\netcoreapp3.1\sampleNunitProject.dll uses version 4.0.30319
+14:33:02.805 Debug [ 1] RuntimeFrameworkService: Assembly C:\Users\shaik.g.peer\source\repos\sampleNunitProject\bin\Debug\netcoreapp3.1\sampleNunitProject.dll targets .NETCoreApp,Version=v3.1
+14:33:02.806 Debug [ 1] RuntimeFrameworkService: Current framework is net-4.5
+14:33:02.806 Debug [ 1] RuntimeFrameworkService: Requested framework is any
+14:33:02.807 Debug [ 1] RuntimeFrameworkService: Test will use net-4.0 framework
+14:33:02.812 Info  [ 1] ProcessRunner: Running 
+14:33:02.818 Info  [ 1] TestAgency: Getting standard agent for use under net-4.0
+14:33:02.819 Debug [ 1] TestAgency: Using nunit-agent at C:\Users\shaik.g.peer\.nuget\packages\nunit.consolerunner\3.10.0\tools\nunit-agent.exe
+14:33:02.819 Debug [ 1] ServiceManager: Request for service RuntimeFrameworkService satisfied by RuntimeFrameworkService
+14:33:02.835 Debug [ 1] TestAgency: Launched Agent process 15468 - see nunit-agent_15468.log
+14:33:02.835 Debug [ 1] TestAgency: Command line: "C:\Users\shaik.g.peer\.nuget\packages\nunit.consolerunner\3.10.0\tools\nunit-agent.exe" 701fcd60-cd8c-4bb0-996b-13db3bf679f5 tcp://127.0.0.1:54920/TestAgency --pid=240 --trace:Debug --work="C:\Users\shaik.g.peer\source\repos\sampleNunitProject\bin\Debug\netcoreapp3.1"
+14:33:02.836 Debug [ 1] TestAgency: Waiting for agent {701fcd60-cd8c-4bb0-996b-13db3bf679f5} to register
+14:33:03.250 Debug [ 1] TestAgency: Returning new agent {701fcd60-cd8c-4bb0-996b-13db3bf679f5}
+14:33:03.498 Error [ 1] ProcessRunner: Failed to run remote tests The NUnit 3 driver encountered an error while executing reflected code.
+14:33:03.523 Info  [ 1] ProcessRunner: Unloading 
+14:33:03.528 Debug [ 1] ProcessRunner: Stopping remote agent
+14:33:03.570 Info  [ 1] ServiceManager: Stopping DefaultTestRunnerFactory
+14:33:03.570 Info  [ 1] ServiceManager: Stopping ResultService
+14:33:03.570 Info  [ 1] ServiceManager: Stopping TestAgency
+14:33:03.570 Info  [ 1] ServiceManager: Stopping RuntimeFrameworkService
+14:33:03.570 Info  [ 1] ServiceManager: Stopping DomainManager
+14:33:03.571 Info  [ 1] ServiceManager: Stopping ProjectService
+14:33:03.571 Info  [ 1] ServiceManager: Stopping ExtensionService
+14:33:03.571 Info  [ 1] ServiceManager: Stopping TestFilterService
+14:33:03.571 Info  [ 1] ServiceManager: Stopping RecentFilesService
+14:33:03.572 Info  [ 1] ServiceManager: Stopping DriverService
+14:33:03.572 Info  [ 1] ServiceManager: Stopping SettingsService
