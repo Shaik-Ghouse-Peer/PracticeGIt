@@ -1,1 +1,3 @@
 file2 is added
+changed By test_branch3
+changed by master
