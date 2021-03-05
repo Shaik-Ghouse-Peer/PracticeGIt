@@ -12,3 +12,17 @@ C:\Users\shaik.g.peer\source\repos\CalculatorTesting\obj\Debug\CalculatorTesting
 C:\Users\shaik.g.peer\source\repos\CalculatorTesting\obj\Debug\CalculatorTesting.csproj.CopyComplete
 C:\Users\shaik.g.peer\source\repos\CalculatorTesting\obj\Debug\CalculatorTesting.dll
 C:\Users\shaik.g.peer\source\repos\CalculatorTesting\obj\Debug\CalculatorTesting.pdb
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\nunit.engine.dll
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\nunit.engine.api.dll
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\nunit.engine.core.dll
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\CalculatorTesting.dll
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\CalculatorTesting.pdb
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\nunit.framework.dll
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\bin\Debug\nunit.framework.xml
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\obj\Debug\CalculatorTesting.csprojAssemblyReference.cache
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\obj\Debug\CalculatorTesting.csproj.CoreCompileInputs.cache
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\obj\Debug\CalculatorTesting.csproj.CopyComplete
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\obj\Debug\CalculatorTesting.dll
+C:\Users\shaik.g.peer\Desktop\GitPractice\PracticeGIt\CalculatorTesting\obj\Debug\CalculatorTesting.pdb
